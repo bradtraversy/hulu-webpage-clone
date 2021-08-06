@@ -44,19 +44,14 @@ h4 {
 }
 
 .btn {
-  display: inline-block;
-  background: #fff;
-  color: #333;
-  min-width: 135px;
-  padding: 20px 32px;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 14px;
-  border: none;
-  border-radius: 5px;
-  letter-spacing: 1px;
-  cursor: pointer;
-  text-transform: uppercase;
+  width: 15%;
+  height: 1000%;
+  color: #fff;
+  background:linear-gradient(-45deg,#000,#e73c73,#19b6d0,#2305ab);
+   background-size: 100% 100%;
+   position: relative;
+  animation: change 10s ease-in-out infinite;
+
 }
 
 .btn-cta:hover {
@@ -505,5 +500,18 @@ h4 {
 
   .modal .modal-box {
     width: 350px;
+  }@keyframes change {
+    0%{
+        background-position: 0 50%;
+
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
   }
+
+
 }
