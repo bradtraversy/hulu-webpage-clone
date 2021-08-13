@@ -216,6 +216,7 @@ h4 {
   height: 500px;
   width: 300px;
   position: relative;
+  cursor: pointer;
 }
 
 .categories .cover-grad {
@@ -250,6 +251,34 @@ h4 {
 }
 .categories .cover-4 {
   background: url('../img/cover-4.jpg') no-repeat center center / cover;
+}
+
+.cover-1 {
+  transition: 0.3s ease-in-out;
+ }
+.cover-1:hover {
+  transform: scale(1.05);
+}
+
+.cover-2 {
+  transition: 0.3s ease-in-out;
+ }
+.cover-2:hover {
+  transform: scale(1.05);
+}
+
+.cover-3 {
+  transition: 0.3s ease-in-out;
+ }
+.cover-3:hover {
+  transform: scale(1.05);
+}
+
+.cover-4 {
+  transition: 0.3s ease-in-out;
+ }
+.cover-4:hover {
+  transform: scale(1.05);
 }
 
 /* Live */
