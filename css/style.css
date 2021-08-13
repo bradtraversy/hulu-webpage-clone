@@ -128,6 +128,10 @@ h4 {
   letter-spacing: 1px;
 }
 
+.login-btn:hover {
+  opacity: 0.7;
+}
+
 .header .logo {
   width: 270px;
   margin: 20px 0;
@@ -332,6 +336,14 @@ h4 {
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 5px;
+}
+
+.footer-lists a {
+  transition: 0.3s;
+}
+
+.footer-lists a:hover {
+  color: #2B618D;
 }
 
 .divider {
