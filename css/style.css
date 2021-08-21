@@ -127,6 +127,9 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+.login-btn:hover{
+  opacity: 0.8;
+}
 
 .header .logo {
   width: 270px;
@@ -174,12 +177,7 @@ h4 {
   gap: 40px;
   align-items: center;
   padding: 30px 40px;
-  background: linear-gradient(
-    318.68deg,
-    #0f495c 0%,
-    #0d3640 49.72%,
-    #08141f 100%
-  );
+  background: linear-gradient(179.81deg, rgba(4,4,4,0.7) .17%, rgba(4,4,4,0.45) 85.02%, rgba(4,4,4,0.3) 112.52%) !important
 }
 
 .sub-header > div:last-of-type {
