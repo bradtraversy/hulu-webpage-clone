@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
 
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -45,7 +46,7 @@ h4 {
 
 .btn {
   display: inline-block;
-  background: #fff;
+  background: #fffcfd;
   color: #333;
   min-width: 135px;
   padding: 20px 32px;
